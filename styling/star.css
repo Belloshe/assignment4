@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../img/hej.jpg");
+    justify-content: center;
+
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    border-style: outset;
+    border-color: black;
+    background-color: black;
+    opacity: 0.6;
+    text-justify: auto;
+    font-style: normal;
+}
+
+
+.button {
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-style: outset;
+    border-color: black;
+    background-color: black;
+    opacity: 0.6;
+
+}
+
+.btn {
+    background-color: rgb(249, 0, 0);
+    color: rgb(1, 0, 6);
+    text-shadow: 80px;
+    padding: 0px 0px;
+    text-align: center;
+    display: flex;
+    font-size: 15px;
+    margin: 5px 5px;
+    cursor: pointer;
+    font-weight: 600;
+    border-style: groove;
+    border-color: rgb(163, 181, 221);
+
+}
+
+li,
+ul {
+    padding: 0px 20px 5px;
+    font-family: cambria;
+    font-size: 15px;
+    color: rgb(232, 11, 11);
+    line-height: 20px;
+    list-style: none;
+    justify-content: center;
+
+}
+
+.name,
+.gender,
+.birthyear,
+.mass,
+.eyecolor,
+.height {
+    display: flex;
+    color: rgb(219, 234, 177);
+    font-size: 12px;
+    justify-content: center;
+    font-style: inherit;
+    font-weight: 400;
+
+
+}
+
+.h {
+    color: rgb(189, 214, 236);
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    font-weight: 800;
+    position: relative;
+    padding-left: 50px;
+
+}
